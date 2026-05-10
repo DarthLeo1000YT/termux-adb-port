@@ -1,5 +1,7 @@
 #!/bin/sh
-download(){ wget -N $1; };
+download(){
+  wget -N $1;
+};
 cd
 mkdir -p termux-adb-port
 cd termux-adb-port
