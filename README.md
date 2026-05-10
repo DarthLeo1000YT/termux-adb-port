@@ -17,4 +17,4 @@ wget -qO - https://raw.githubusercontent.com/DarthLeo1000YT/termux-adb-port/main
 ./termux-adb-port/termux-adb-port
 ```
 
-This read me is currently under construction and suject to change.
+This read me is currently under construction and subject to change.
