@@ -10,11 +10,11 @@ wget --no-cache --post-data="action=purge" -qO - https://raw.githubusercontent.c
 
 ## To update the project, run the following script:
 ```
-./termux-adb-port/update.sh
+bash termux-adb-port/update.sh
 ```
 ## To run the project, please use:
 ```
-./termux-adb-port/termux-adb-port
+bash termux-adb-port/termux-adb-port
 ```
 
 This read me is currently under construction and subject to change.
