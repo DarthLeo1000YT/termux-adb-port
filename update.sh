@@ -1,6 +1,6 @@
 #!/bin/sh
 download(){
-  wget -N $1;
+  wget -N $1 &>/dev/null;
 };
 cd
 mkdir -p termux-adb-port
