@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# It took me so fucking long to figure this out
+currip=$(ifconfig 2>/dev/null | grep -A 1 "wlan0:" | grep "inet" | awk '{print $2}')
+curdir=$(pwd)
+cd
+bash termux-adb-port/adbw_port | grep "$currip" | awk '{print $4}')
+cd "$curdir"
