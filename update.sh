@@ -1,5 +1,6 @@
 #!/bin/sh
 download(){
+  echo "Downloading $2 from GitHub."
   wget --no-cache --post-data="action=purge" $1 -O $2 &>/dev/null;
 };
 cd
