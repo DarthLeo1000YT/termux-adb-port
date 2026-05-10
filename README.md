@@ -5,7 +5,7 @@ This project is meant to be installed in temux's home folder.
 
 ## You can paste the following to one line install my adaptation:
 ```
-wget -qO - https://raw.githubusercontent.com/DarthLeo1000YT/termux-adb-port/refs/heads/main/update.sh | bash
+wget -qO - https://raw.githubusercontent.com/DarthLeo1000YT/termux-adb-port/main/update.sh | bash
 ```
 
 ## To update the project, run the following script:
