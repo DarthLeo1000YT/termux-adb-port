@@ -1,7 +1,7 @@
 #!/bin/sh
 download(){
   echo "Downloading $2 from GitHub."
-  wget --no-cache --post-data="action=purge" "https://raw.githubusercontent.com/$1" -O $2 &>/dev/null;
+  wget --no-cache --post-data="action=purge" "https://raw.githubusercontent.com/$1" -O $2 >/dev/null;
 };
 cd
 mkdir -p termux-adb-port
